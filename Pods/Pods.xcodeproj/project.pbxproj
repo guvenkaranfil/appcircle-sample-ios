@@ -6,20 +6,105 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F3C9EB643BE2F505CADF809D4AFFE8FC /* Build configuration list for PBXAggregateTarget "AppCenter" */;
+			buildPhases = (
+				9D23B23285890316DEC66CFC4DA2C2A6 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				CC00D3BA11C4829594D151512DFB80FF /* PBXTargetDependency */,
+				B7823ABDB362D36F15ABF38E03DD498C /* PBXTargetDependency */,
+				07EF9D9D6971BDC3A636638465D383C7 /* PBXTargetDependency */,
+				A46D6585BA875A6BD061B4E9EF1450D8 /* PBXTargetDependency */,
+				01CE8F5CECDA0460FEB6A39DF18AFBBB /* PBXTargetDependency */,
+			);
+			name = AppCenter;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		1879B64ED43AC53C7AC1536A0ECCF510 /* Pods-Appcircle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C230C893392EB879C9CFE24D5386E6F /* Pods-Appcircle-dummy.m */; };
-		2260EB1CB83B51840EB1AE8478AF0E55 /* Pods-Appcircle-AppcircleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3D836AEF8428001751C0077BB54F88 /* Pods-Appcircle-AppcircleUITests-dummy.m */; };
-		8669128EB6E9CF660FA8D66F3F64B40E /* Pods-AppcircleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E376D5A770CE39314B2CC46A568F036 /* Pods-AppcircleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FC74DD8E9B093BA5A98088FEF759BA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0AF4B94C733C28B8B6E1C570A9E8EF34 /* cs.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 728F05C6B0D3E1665E0CD2499BCF6BC0 /* cs.lproj */; };
+		1B4AB9196FDDADF021ECDC74312B2286 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 92C8C18AFD003E5B50B7245304EACB4C /* zh-Hans.lproj */; };
+		27F749BE2D405E2D8457F7DDD010CA82 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F0304BEF3D4FF1783B0E5FB715830EB0 /* PrivacyInfo.xcprivacy */; };
+		3236CADB5E8EEF7E9358451E4DD955F8 /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 5267F4AD5D559ABCB0A3155399F9D8F1 /* tr.lproj */; };
+		34D452D124EA289051B4822262F3559D /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EC3A76AC94275E9BE54FBB7225789CC7 /* de.lproj */; };
+		5384D72E32DD18225B874F46567268D8 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 77EBCF1AF1B5268D32AACD7C8ECB5C0E /* es.lproj */; };
+		575FCA1EC7DC425D52F0DD86C283915B /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2FA92ACE7DAA31848CED1D5142553E3E /* en.lproj */; };
+		6D5A37F4414C9BDA0F3ED713DC2AFBD0 /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F302590CDE00D21A0D25ED6502CFF37D /* zh-Hant.lproj */; };
+		7AEED0B6621443606185B67080B2E97B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B0BB4A4A63F25CB1D773B0246F45F8DF /* PrivacyInfo.xcprivacy */; };
+		8669128EB6E9CF660FA8D66F3F64B40E /* Pods-AppcircleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1314F444E7C33596F4DF967BE651CF33 /* Pods-AppcircleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		889CDE672391C0551D004BC38F9088BD /* Pods-Appcircle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87051882FAAB37D4834B07CF2713FE98 /* Pods-Appcircle-dummy.m */; };
+		8A14E369ABFE83A21AA3D3A989EFF250 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0F85B6424D519A95E3D0D6437723F9AE /* PrivacyInfo.xcprivacy */; };
+		97AB8DCE1D093B6F527C7EF586524C40 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3CFCCFB567ABC3D3E20FB06BC1042AAD /* ja.lproj */; };
+		A20AF9375B062090A4D7A75568A7D8E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A775137951575DB94F4FAC2F0C17098E /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3C1D1BEF9C0E81BD198E5765083F4BC4 /* pt.lproj */; };
 		B26A933BC7967181DF43BC93EBC48EC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E2CA2535D0D5D2FFD007E83F55D79EBE /* Pods-Appcircle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9C3A6C9263A6C7820F3057D89E5DA84 /* Pods-Appcircle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAA2531988CFE41D32E89120DFDBBFE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F3CCC0438147B2D7A3AA9CDBC02CAE5E /* Pods-AppcircleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B91046E8CE7FEFEB51A3243D7EB16E82 /* Pods-AppcircleTests-dummy.m */; };
-		F8A71BC24F407C0A25340762196AC412 /* Pods-Appcircle-AppcircleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 177EB442F2DF65FD1CF100CD12760DA2 /* Pods-Appcircle-AppcircleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA8EA4415F7FB17D03CAE7FEF6216E79 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 742BC63DF85ADF29603D282A0443D38B /* fr.lproj */; };
+		BDA1F39092A41C7811338FCA1A814C06 /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1D7BD48D92CACFB04F30D99F6BA92503 /* pl.lproj */; };
+		C477F51836D4B7E660F24D52F131042F /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1838361036518E9BCBC0E531AEAEE7B5 /* ru.lproj */; };
+		C68CA52CB0664188120B887156C5C880 /* Pods-Appcircle-AppcircleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7CEC93EDD77F07A4AACB46FB63444C /* Pods-Appcircle-AppcircleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFAC6F9E16910F56B68E6E011C7967B4 /* Pods-Appcircle-AppcircleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5175E7CCAA45DE6F7050B6D27D8E2F13 /* Pods-Appcircle-AppcircleUITests-dummy.m */; };
+		EF987A9C002C01FA4013D5CE65A9534F /* Pods-Appcircle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB8F8012766B26B61ED84C0A2DE6D6A /* Pods-Appcircle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3CCC0438147B2D7A3AA9CDBC02CAE5E /* Pods-AppcircleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC83C355AA094DCABF7A0DF642410E /* Pods-AppcircleTests-dummy.m */; };
+		F477CF98DCFEA1514E8AA3EC99926C0E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = BAB750319E83FD2D62CAA24AE538D236 /* PrivacyInfo.xcprivacy */; };
+		F48EB8F3FD0C44B48D31396733902039 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A9EFD9ECD8795B5B2C1A4E38373DDE0A /* ko.lproj */; };
+		F96A6D561775DE91BDB50C67BB6B4CC7 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 5C0DC0EB2E31AEB5F042AF49A1C93D37 /* it.lproj */; };
+		FB0456C3A2DC432C348159C8B8EAA2C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1B3E3B16A69E4D1CFFB696149DC2095F /* PBXContainerItemProxy */ = {
+		220FE301A6D54A7AC19FEB7DF24656C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6DF1D2F337DD6141EB92CB83DABD83;
+			remoteInfo = "AppCenter-AppCenterAnalytics";
+		};
+		716D7CE5021F39AE079096266F079623 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3282A5B2437E609EEB85861D7ECE717;
+			remoteInfo = AppCenter;
+		};
+		7D2015A4F05164DCE042D69B50A79CBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8C9547621507A981EA4ECF0E5C78672;
+			remoteInfo = "AppCenter-AppCenterCrashes";
+		};
+		8265DAB0D25EB4B5AEE4C8B4905361F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD9915FE83842AE0201096155515772;
+			remoteInfo = "AppCenter-AppCenterDistributeResources";
+		};
+		A41C0AE7B77B741F272354F5A456E438 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5105AC144254B8E58478B4411253287F;
+			remoteInfo = "AppCenter-AppCenterDistribute";
+		};
+		B7F3254B1BD2B0FD6AB36DA42CAA6CE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AFB44FAD96A83677E9024EF6A10AE88;
+			remoteInfo = "AppCenter-AppCenter";
+		};
+		BB0A90EC67CC02E4EB71AA5C579BFE8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3282A5B2437E609EEB85861D7ECE717;
+			remoteInfo = AppCenter;
+		};
+		C3A0FEA67E47D58318CD63A8452F4A11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -29,38 +114,82 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0006B75390C7D512C63D4769D82A69BD /* Pods-Appcircle-AppcircleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Appcircle-AppcircleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		177EB442F2DF65FD1CF100CD12760DA2 /* Pods-Appcircle-AppcircleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Appcircle-AppcircleUITests-umbrella.h"; sourceTree = "<group>"; };
-		1E376D5A770CE39314B2CC46A568F036 /* Pods-AppcircleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppcircleTests-umbrella.h"; sourceTree = "<group>"; };
-		2247666F92C4261779061EAD91BCA123 /* Pods-Appcircle-AppcircleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Appcircle-AppcircleUITests-Info.plist"; sourceTree = "<group>"; };
-		3B01B667E155C37F9F2FCDAD6489498E /* Pods-Appcircle-AppcircleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Appcircle-AppcircleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		03D073CABC880FE9E2D5E844A1A3C576 /* AppCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenter.release.xcconfig; sourceTree = "<group>"; };
+		05FD928D2FC38BCED653BD02E277DC88 /* Pods-Appcircle-AppcircleUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Appcircle-AppcircleUITests-resources.sh"; sourceTree = "<group>"; };
+		08B6A6BBE300B6FE340240419292DB53 /* Pods-AppcircleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppcircleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B3267D7DE5C12E8CB03E3E5CA8E8F5B /* AppCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenter.debug.xcconfig; sourceTree = "<group>"; };
+		0F85B6424D519A95E3D0D6437723F9AE /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "AppCenter-SDK-Apple/AppCenter.xcframework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		11AF731E4071DCD5E34B4CA294302B92 /* AppCenter-AppCenterDistributeResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "AppCenter-AppCenterDistributeResources"; path = AppCenterDistributeResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1314F444E7C33596F4DF967BE651CF33 /* Pods-AppcircleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppcircleTests-umbrella.h"; sourceTree = "<group>"; };
+		134AD8237B19CCCEAE4C971C63A78016 /* AppCenter-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AppCenter-xcframeworks.sh"; sourceTree = "<group>"; };
+		1774517C2A85332EC4FD38BFFE5CDA4C /* Pods-AppcircleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppcircleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		17F47B656B7E2C0D72EF18CB0B3DADD7 /* AppCenter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppCenter.xcframework; path = "AppCenter-SDK-Apple/AppCenter.xcframework"; sourceTree = "<group>"; };
+		1838361036518E9BCBC0E531AEAEE7B5 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ru.lproj; path = "AppCenter-SDK-Apple/AppCenterDistributeResources.bundle/ru.lproj"; sourceTree = "<group>"; };
+		199C11801AB76A10B7D7155D3F69EEF1 /* AppCenterCrashes.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppCenterCrashes.xcframework; path = "AppCenter-SDK-Apple/AppCenterCrashes.xcframework"; sourceTree = "<group>"; };
+		1B88093430E995EFFB0D385EE0B32E8A /* Pods-Appcircle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Appcircle-Info.plist"; sourceTree = "<group>"; };
+		1D7BD48D92CACFB04F30D99F6BA92503 /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pl.lproj; path = "AppCenter-SDK-Apple/AppCenterDistributeResources.bundle/pl.lproj"; sourceTree = "<group>"; };
+		2411B29F53A918A1EF1CEE2E01F7743D /* Pods-Appcircle-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Appcircle-acknowledgements.markdown"; sourceTree = "<group>"; };
+		284195D36F01328E069A537CF033A0D5 /* AppCenter-AppCenterDistribute */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "AppCenter-AppCenterDistribute"; path = AppCenterDistribute.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADC83C355AA094DCABF7A0DF642410E /* Pods-AppcircleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppcircleTests-dummy.m"; sourceTree = "<group>"; };
+		2FA92ACE7DAA31848CED1D5142553E3E /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = "AppCenter-SDK-Apple/AppCenterDistributeResources.bundle/en.lproj"; sourceTree = "<group>"; };
+		38C6441B672F3C9D258895DA9490017E /* Pods-Appcircle-AppcircleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Appcircle-AppcircleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C1D1BEF9C0E81BD198E5765083F4BC4 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pt.lproj; path = "AppCenter-SDK-Apple/AppCenterDistributeResources.bundle/pt.lproj"; sourceTree = "<group>"; };
+		3CFCCFB567ABC3D3E20FB06BC1042AAD /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.lproj; path = "AppCenter-SDK-Apple/AppCenterDistributeResources.bundle/ja.lproj"; sourceTree = "<group>"; };
+		4086E81C53D48DABA56868927CBB8712 /* Pods-AppcircleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppcircleTests.release.xcconfig"; sourceTree = "<group>"; };
+		46B24A40F0E5896BD024F5E171686639 /* Pods-Appcircle-AppcircleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Appcircle-AppcircleUITests-Info.plist"; sourceTree = "<group>"; };
 		46FB798B69C9DA465BA5C94EB4977A3B /* Pods-AppcircleTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AppcircleTests"; path = Pods_AppcircleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C230C893392EB879C9CFE24D5386E6F /* Pods-Appcircle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Appcircle-dummy.m"; sourceTree = "<group>"; };
-		4EC494B405E3C220EC90CCF86BBBA561 /* Pods-Appcircle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Appcircle.modulemap"; sourceTree = "<group>"; };
-		59F6042EFABA2B389AC3057A0EB33F6B /* Pods-AppcircleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppcircleTests.release.xcconfig"; sourceTree = "<group>"; };
-		64F3652C27D77C7DCCD2C98837314CBD /* Pods-AppcircleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppcircleTests-Info.plist"; sourceTree = "<group>"; };
+		5175E7CCAA45DE6F7050B6D27D8E2F13 /* Pods-Appcircle-AppcircleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Appcircle-AppcircleUITests-dummy.m"; sourceTree = "<group>"; };
+		5267F4AD5D559ABCB0A3155399F9D8F1 /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = tr.lproj; path = "AppCenter-SDK-Apple/AppCenterDistributeResources.bundle/tr.lproj"; sourceTree = "<group>"; };
+		59733A21051E78DCC3300A29260196FD /* AppCenter-AppCenter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "AppCenter-AppCenter"; path = AppCenter.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C0DC0EB2E31AEB5F042AF49A1C93D37 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = it.lproj; path = "AppCenter-SDK-Apple/AppCenterDistributeResources.bundle/it.lproj"; sourceTree = "<group>"; };
+		5CAA91EE79DDE85CECFF14610F24447C /* ResourceBundle-AppCenterCrashes-AppCenter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AppCenterCrashes-AppCenter-Info.plist"; sourceTree = "<group>"; };
+		5CDB09D0A85BDE707376BB569593983A /* Pods-Appcircle-AppcircleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Appcircle-AppcircleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5DBA997076F9144BD76CDDBFDCD60D3E /* Pods-Appcircle-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Appcircle-resources.sh"; sourceTree = "<group>"; };
+		629505185B70A9DF6EE787C5F7E8C0B5 /* AppCenterDistribute.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppCenterDistribute.xcframework; path = "AppCenter-SDK-Apple/AppCenterDistribute.xcframework"; sourceTree = "<group>"; };
+		6D84B3E7B58B8441E634D1F157B4F7C6 /* Pods-Appcircle-AppcircleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Appcircle-AppcircleUITests.modulemap"; sourceTree = "<group>"; };
+		6FF01D287EF111EB07FBD97633812F29 /* Pods-Appcircle-AppcircleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Appcircle-AppcircleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		728F05C6B0D3E1665E0CD2499BCF6BC0 /* cs.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = cs.lproj; path = "AppCenter-SDK-Apple/AppCenterDistributeResources.bundle/cs.lproj"; sourceTree = "<group>"; };
+		72F0C8180F308576C40F3BD3BA0B3326 /* Pods-Appcircle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Appcircle.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		75829CEF59C2CCF578C13765201721B9 /* Pods-AppcircleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppcircleTests.modulemap"; sourceTree = "<group>"; };
-		7BB9B7843C7A1412777CDC72FA285E2F /* Pods-Appcircle-AppcircleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Appcircle-AppcircleUITests.modulemap"; sourceTree = "<group>"; };
-		8D386308A273438E49BDE88C314E86B6 /* Pods-AppcircleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppcircleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		742BC63DF85ADF29603D282A0443D38B /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = "AppCenter-SDK-Apple/AppCenterDistributeResources.bundle/fr.lproj"; sourceTree = "<group>"; };
+		77EBCF1AF1B5268D32AACD7C8ECB5C0E /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es.lproj; path = "AppCenter-SDK-Apple/AppCenterDistributeResources.bundle/es.lproj"; sourceTree = "<group>"; };
+		87051882FAAB37D4834B07CF2713FE98 /* Pods-Appcircle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Appcircle-dummy.m"; sourceTree = "<group>"; };
+		8766F6745EE57029FBDFE2757850B89F /* AppCenter-AppCenterAnalytics */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "AppCenter-AppCenterAnalytics"; path = AppCenterAnalytics.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A1CD73CC8FF7A55E5B24D68288320E /* AppCenterAnalytics.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppCenterAnalytics.xcframework; path = "AppCenter-SDK-Apple/AppCenterAnalytics.xcframework"; sourceTree = "<group>"; };
+		9271B2CFD0DA5B135D2ADBE57EC850EE /* Pods-AppcircleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppcircleTests.modulemap"; sourceTree = "<group>"; };
+		92C8C18AFD003E5B50B7245304EACB4C /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "AppCenter-SDK-Apple/AppCenterDistributeResources.bundle/zh-Hans.lproj"; sourceTree = "<group>"; };
 		9C9D7D7EACA49D2637380CF5E85294BC /* Pods-Appcircle-AppcircleUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Appcircle-AppcircleUITests"; path = Pods_Appcircle_AppcircleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E37CEABE471B1C3821119628BFF1CBF /* Pods-Appcircle-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Appcircle-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A51E32EDF4D387D4FBF8D50E5CF54CF5 /* Pods-Appcircle-AppcircleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Appcircle-AppcircleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A611B5317E7E8F51D30C26E9238EE0AC /* Pods-Appcircle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Appcircle.debug.xcconfig"; sourceTree = "<group>"; };
-		B651192F61CFB8F6A9D1FDB3E95A0534 /* Pods-Appcircle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Appcircle.release.xcconfig"; sourceTree = "<group>"; };
-		B91046E8CE7FEFEB51A3243D7EB16E82 /* Pods-AppcircleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppcircleTests-dummy.m"; sourceTree = "<group>"; };
-		BC0143A2D4D8A0DCC703248D5BF430A5 /* Pods-Appcircle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Appcircle-Info.plist"; sourceTree = "<group>"; };
-		CD3D836AEF8428001751C0077BB54F88 /* Pods-Appcircle-AppcircleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Appcircle-AppcircleUITests-dummy.m"; sourceTree = "<group>"; };
-		CEED7BA519989E4FE426C6CED5136097 /* Pods-Appcircle-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Appcircle-acknowledgements.plist"; sourceTree = "<group>"; };
-		DE7E49D7330123EF9A1EE6316FD54A9B /* Pods-AppcircleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppcircleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		EFBC06BDC277A4C59AD8C844E7FFFC19 /* Pods-Appcircle-AppcircleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Appcircle-AppcircleUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F9C3A6C9263A6C7820F3057D89E5DA84 /* Pods-Appcircle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Appcircle-umbrella.h"; sourceTree = "<group>"; };
+		9E306E9B898427B19526DBEBCB125447 /* Pods-AppcircleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppcircleTests-Info.plist"; sourceTree = "<group>"; };
+		9F7CEC93EDD77F07A4AACB46FB63444C /* Pods-Appcircle-AppcircleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Appcircle-AppcircleUITests-umbrella.h"; sourceTree = "<group>"; };
+		A0B7618AC2E766AD9B434A53239774F1 /* ResourceBundle-AppCenter-AppCenter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AppCenter-AppCenter-Info.plist"; sourceTree = "<group>"; };
+		A9EFD9ECD8795B5B2C1A4E38373DDE0A /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ko.lproj; path = "AppCenter-SDK-Apple/AppCenterDistributeResources.bundle/ko.lproj"; sourceTree = "<group>"; };
+		B0BB4A4A63F25CB1D773B0246F45F8DF /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "AppCenter-SDK-Apple/AppCenterDistribute.xcframework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		BA33AC325D3F77A48770D9B740F4956F /* ResourceBundle-AppCenterDistributeResources-AppCenter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AppCenterDistributeResources-AppCenter-Info.plist"; sourceTree = "<group>"; };
+		BAAF06A0D44F6BBD4F5F8FE09760A5ED /* Pods-Appcircle-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Appcircle-acknowledgements.plist"; sourceTree = "<group>"; };
+		BAB750319E83FD2D62CAA24AE538D236 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "AppCenter-SDK-Apple/AppCenterCrashes.xcframework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		C8DA55B2078EB45C624220566ED3E8EC /* AppCenter-AppCenterCrashes */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "AppCenter-AppCenterCrashes"; path = AppCenterCrashes.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D968626922C8BA96AB071E6AB08D3CA6 /* ResourceBundle-AppCenterDistribute-AppCenter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AppCenterDistribute-AppCenter-Info.plist"; sourceTree = "<group>"; };
+		DABA1532A339F48D87DBEE0A9E5C8ECA /* Pods-AppcircleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppcircleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DB09BA028F6568DCC683E0B03078A5EB /* ResourceBundle-AppCenterAnalytics-AppCenter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AppCenterAnalytics-AppCenter-Info.plist"; sourceTree = "<group>"; };
+		EC3A76AC94275E9BE54FBB7225789CC7 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = "AppCenter-SDK-Apple/AppCenterDistributeResources.bundle/de.lproj"; sourceTree = "<group>"; };
+		F0304BEF3D4FF1783B0E5FB715830EB0 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "AppCenter-SDK-Apple/AppCenterAnalytics.xcframework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		F207FDD856C6E392895913D9492662ED /* Pods-Appcircle-AppcircleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Appcircle-AppcircleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F302590CDE00D21A0D25ED6502CFF37D /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hant.lproj"; path = "AppCenter-SDK-Apple/AppCenterDistributeResources.bundle/zh-Hant.lproj"; sourceTree = "<group>"; };
+		F4C79FC8C1B178E3618494295CDC46EA /* Pods-Appcircle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Appcircle.debug.xcconfig"; sourceTree = "<group>"; };
+		FA01CFCB6E6DD6C62897BED159E64D86 /* Pods-Appcircle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Appcircle.modulemap"; sourceTree = "<group>"; };
 		FA59EBFC2AAD893246021F0F33BE8074 /* Pods-Appcircle */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Appcircle"; path = Pods_Appcircle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFA15E2E591214A1B78542F6A6AE7393 /* Pods-AppcircleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppcircleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBB8F8012766B26B61ED84C0A2DE6D6A /* Pods-Appcircle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Appcircle-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		00402B15CB2429A88B3F896699066A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		106CFF7B03065283CAC127E8C018CD4E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -69,55 +198,173 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		13F14B37C7265A1CA30DBEE424972BEB /* Frameworks */ = {
+		3DC08DD80F9FB8383EE609161BA37E6C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FC74DD8E9B093BA5A98088FEF759BA7 /* Foundation.framework in Frameworks */,
+				FB0456C3A2DC432C348159C8B8EAA2C5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		424FCC6BFB81D8B34A0F771FB4D25505 /* Frameworks */ = {
+		48C764D45ABE14584D794786CB6F6E9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAA2531988CFE41D32E89120DFDBBFE7 /* Foundation.framework in Frameworks */,
+				A20AF9375B062090A4D7A75568A7D8E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4299799AB71C8136F937BCCF4C793E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD57CC5AC6FAF06C0FAF19A86D2EED64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B280A164EF21CEA119751397DDD63FBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C686BAF717ED50D8790F3858EF89617F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		084781DDE2E185D6AE315C8BDB2EB200 /* Pods-Appcircle-AppcircleUITests */ = {
+		003BFD51A9CFE9BFAA4F436185D94D39 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7BB9B7843C7A1412777CDC72FA285E2F /* Pods-Appcircle-AppcircleUITests.modulemap */,
-				A51E32EDF4D387D4FBF8D50E5CF54CF5 /* Pods-Appcircle-AppcircleUITests-acknowledgements.markdown */,
-				0006B75390C7D512C63D4769D82A69BD /* Pods-Appcircle-AppcircleUITests-acknowledgements.plist */,
-				CD3D836AEF8428001751C0077BB54F88 /* Pods-Appcircle-AppcircleUITests-dummy.m */,
-				2247666F92C4261779061EAD91BCA123 /* Pods-Appcircle-AppcircleUITests-Info.plist */,
-				177EB442F2DF65FD1CF100CD12760DA2 /* Pods-Appcircle-AppcircleUITests-umbrella.h */,
-				3B01B667E155C37F9F2FCDAD6489498E /* Pods-Appcircle-AppcircleUITests.debug.xcconfig */,
-				EFBC06BDC277A4C59AD8C844E7FFFC19 /* Pods-Appcircle-AppcircleUITests.release.xcconfig */,
+				134AD8237B19CCCEAE4C971C63A78016 /* AppCenter-xcframeworks.sh */,
+				0B3267D7DE5C12E8CB03E3E5CA8E8F5B /* AppCenter.debug.xcconfig */,
+				03D073CABC880FE9E2D5E844A1A3C576 /* AppCenter.release.xcconfig */,
+				A0B7618AC2E766AD9B434A53239774F1 /* ResourceBundle-AppCenter-AppCenter-Info.plist */,
+				DB09BA028F6568DCC683E0B03078A5EB /* ResourceBundle-AppCenterAnalytics-AppCenter-Info.plist */,
+				5CAA91EE79DDE85CECFF14610F24447C /* ResourceBundle-AppCenterCrashes-AppCenter-Info.plist */,
+				D968626922C8BA96AB071E6AB08D3CA6 /* ResourceBundle-AppCenterDistribute-AppCenter-Info.plist */,
+				BA33AC325D3F77A48770D9B740F4956F /* ResourceBundle-AppCenterDistributeResources-AppCenter-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppCenter";
+			sourceTree = "<group>";
+		};
+		0CFAB1F11A155CE53C0C784C29B9BF0A /* Crashes */ = {
+			isa = PBXGroup;
+			children = (
+				73FBC056F3FDAEBD352F570AD4241BC9 /* Frameworks */,
+				FAA66A4E090FC071D4383377AF529EFE /* Resources */,
+			);
+			name = Crashes;
+			sourceTree = "<group>";
+		};
+		1B60BBFEBB8679AB81A76A6EF223CCF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				629505185B70A9DF6EE787C5F7E8C0B5 /* AppCenterDistribute.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2801FE4D55B16E51FF5D9AD579C7184A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D805E8A3F661CE5D4D540F17A5A7CB6 /* Pods-Appcircle */,
+				2E787AD85444A4A3BD8E3B45E8B1417F /* Pods-Appcircle-AppcircleUITests */,
+				4DA9BE9F8D53AE785C51E3617472B2EC /* Pods-AppcircleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2D805E8A3F661CE5D4D540F17A5A7CB6 /* Pods-Appcircle */ = {
+			isa = PBXGroup;
+			children = (
+				FA01CFCB6E6DD6C62897BED159E64D86 /* Pods-Appcircle.modulemap */,
+				2411B29F53A918A1EF1CEE2E01F7743D /* Pods-Appcircle-acknowledgements.markdown */,
+				BAAF06A0D44F6BBD4F5F8FE09760A5ED /* Pods-Appcircle-acknowledgements.plist */,
+				87051882FAAB37D4834B07CF2713FE98 /* Pods-Appcircle-dummy.m */,
+				1B88093430E995EFFB0D385EE0B32E8A /* Pods-Appcircle-Info.plist */,
+				5DBA997076F9144BD76CDDBFDCD60D3E /* Pods-Appcircle-resources.sh */,
+				FBB8F8012766B26B61ED84C0A2DE6D6A /* Pods-Appcircle-umbrella.h */,
+				F4C79FC8C1B178E3618494295CDC46EA /* Pods-Appcircle.debug.xcconfig */,
+				72F0C8180F308576C40F3BD3BA0B3326 /* Pods-Appcircle.release.xcconfig */,
+			);
+			name = "Pods-Appcircle";
+			path = "Target Support Files/Pods-Appcircle";
+			sourceTree = "<group>";
+		};
+		2E787AD85444A4A3BD8E3B45E8B1417F /* Pods-Appcircle-AppcircleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D84B3E7B58B8441E634D1F157B4F7C6 /* Pods-Appcircle-AppcircleUITests.modulemap */,
+				F207FDD856C6E392895913D9492662ED /* Pods-Appcircle-AppcircleUITests-acknowledgements.markdown */,
+				5CDB09D0A85BDE707376BB569593983A /* Pods-Appcircle-AppcircleUITests-acknowledgements.plist */,
+				5175E7CCAA45DE6F7050B6D27D8E2F13 /* Pods-Appcircle-AppcircleUITests-dummy.m */,
+				46B24A40F0E5896BD024F5E171686639 /* Pods-Appcircle-AppcircleUITests-Info.plist */,
+				05FD928D2FC38BCED653BD02E277DC88 /* Pods-Appcircle-AppcircleUITests-resources.sh */,
+				9F7CEC93EDD77F07A4AACB46FB63444C /* Pods-Appcircle-AppcircleUITests-umbrella.h */,
+				38C6441B672F3C9D258895DA9490017E /* Pods-Appcircle-AppcircleUITests.debug.xcconfig */,
+				6FF01D287EF111EB07FBD97633812F29 /* Pods-Appcircle-AppcircleUITests.release.xcconfig */,
 			);
 			name = "Pods-Appcircle-AppcircleUITests";
 			path = "Target Support Files/Pods-Appcircle-AppcircleUITests";
 			sourceTree = "<group>";
 		};
-		3259585975FFFEA4B0089D80AD0D3D84 /* Pods-AppcircleTests */ = {
+		3A22C198026931217E9AD07C46F31A07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				75829CEF59C2CCF578C13765201721B9 /* Pods-AppcircleTests.modulemap */,
-				8D386308A273438E49BDE88C314E86B6 /* Pods-AppcircleTests-acknowledgements.markdown */,
-				FFA15E2E591214A1B78542F6A6AE7393 /* Pods-AppcircleTests-acknowledgements.plist */,
-				B91046E8CE7FEFEB51A3243D7EB16E82 /* Pods-AppcircleTests-dummy.m */,
-				64F3652C27D77C7DCCD2C98837314CBD /* Pods-AppcircleTests-Info.plist */,
-				1E376D5A770CE39314B2CC46A568F036 /* Pods-AppcircleTests-umbrella.h */,
-				DE7E49D7330123EF9A1EE6316FD54A9B /* Pods-AppcircleTests.debug.xcconfig */,
-				59F6042EFABA2B389AC3057A0EB33F6B /* Pods-AppcircleTests.release.xcconfig */,
+				F0304BEF3D4FF1783B0E5FB715830EB0 /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3CF541699C21E00EEF3EFC3CFF0B7D9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91A1CD73CC8FF7A55E5B24D68288320E /* AppCenterAnalytics.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DA9BE9F8D53AE785C51E3617472B2EC /* Pods-AppcircleTests */ = {
+			isa = PBXGroup;
+			children = (
+				9271B2CFD0DA5B135D2ADBE57EC850EE /* Pods-AppcircleTests.modulemap */,
+				08B6A6BBE300B6FE340240419292DB53 /* Pods-AppcircleTests-acknowledgements.markdown */,
+				DABA1532A339F48D87DBEE0A9E5C8ECA /* Pods-AppcircleTests-acknowledgements.plist */,
+				2ADC83C355AA094DCABF7A0DF642410E /* Pods-AppcircleTests-dummy.m */,
+				9E306E9B898427B19526DBEBCB125447 /* Pods-AppcircleTests-Info.plist */,
+				1314F444E7C33596F4DF967BE651CF33 /* Pods-AppcircleTests-umbrella.h */,
+				1774517C2A85332EC4FD38BFFE5CDA4C /* Pods-AppcircleTests.debug.xcconfig */,
+				4086E81C53D48DABA56868927CBB8712 /* Pods-AppcircleTests.release.xcconfig */,
 			);
 			name = "Pods-AppcircleTests";
 			path = "Target Support Files/Pods-AppcircleTests";
+			sourceTree = "<group>";
+		};
+		512946F5FD5970F4897A5B034CE369F3 /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				BF7357C093242AF5D62C737E019DFD44 /* Analytics */,
+				8DBD09F062F396F2F19C6DE93F7246C3 /* Core */,
+				0CFAB1F11A155CE53C0C784C29B9BF0A /* Crashes */,
+				BE3DBF5B76BDEFBDDD104E60CAA524FB /* Distribute */,
+				003BFD51A9CFE9BFAA4F436185D94D39 /* Support Files */,
+			);
+			name = AppCenter;
+			path = AppCenter;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -128,9 +375,39 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		84D3227B7EA49FE3AB1558DC3DC0519D /* Products */ = {
+		73FBC056F3FDAEBD352F570AD4241BC9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				199C11801AB76A10B7D7155D3F69EEF1 /* AppCenterCrashes.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CB0F78E486F7BB6A11935EF460908ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				512946F5FD5970F4897A5B034CE369F3 /* AppCenter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8DBD09F062F396F2F19C6DE93F7246C3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FF01262B186A442912EFF564AF3A2475 /* Frameworks */,
+				EB731EBF277691FE441457F39B39B0E2 /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		93922BB533CEFB61223BE1CA86E94FEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59733A21051E78DCC3300A29260196FD /* AppCenter-AppCenter */,
+				8766F6745EE57029FBDFE2757850B89F /* AppCenter-AppCenterAnalytics */,
+				C8DA55B2078EB45C624220566ED3E8EC /* AppCenter-AppCenterCrashes */,
+				284195D36F01328E069A537CF033A0D5 /* AppCenter-AppCenterDistribute */,
+				11AF731E4071DCD5E34B4CA294302B92 /* AppCenter-AppCenterDistributeResources */,
 				FA59EBFC2AAD893246021F0F33BE8074 /* Pods-Appcircle */,
 				9C9D7D7EACA49D2637380CF5E85294BC /* Pods-Appcircle-AppcircleUITests */,
 				46FB798B69C9DA465BA5C94EB4977A3B /* Pods-AppcircleTests */,
@@ -138,14 +415,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C38D36F99AC9FFE5304AA88811DA8FFD /* Targets Support Files */ = {
+		BE3DBF5B76BDEFBDDD104E60CAA524FB /* Distribute */ = {
 			isa = PBXGroup;
 			children = (
-				D9850DEF11B9AC8474137CA886447CAC /* Pods-Appcircle */,
-				084781DDE2E185D6AE315C8BDB2EB200 /* Pods-Appcircle-AppcircleUITests */,
-				3259585975FFFEA4B0089D80AD0D3D84 /* Pods-AppcircleTests */,
+				1B60BBFEBB8679AB81A76A6EF223CCF8 /* Frameworks */,
+				DF39488F00E35C68E80756EB05E9F088 /* Resources */,
 			);
-			name = "Targets Support Files";
+			name = Distribute;
+			sourceTree = "<group>";
+		};
+		BF7357C093242AF5D62C737E019DFD44 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				3CF541699C21E00EEF3EFC3CFF0B7D9B /* Frameworks */,
+				3A22C198026931217E9AD07C46F31A07 /* Resources */,
+			);
+			name = Analytics;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -153,8 +438,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				84D3227B7EA49FE3AB1558DC3DC0519D /* Products */,
-				C38D36F99AC9FFE5304AA88811DA8FFD /* Targets Support Files */,
+				8CB0F78E486F7BB6A11935EF460908ED /* Pods */,
+				93922BB533CEFB61223BE1CA86E94FEC /* Products */,
+				2801FE4D55B16E51FF5D9AD579C7184A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,20 +452,50 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D9850DEF11B9AC8474137CA886447CAC /* Pods-Appcircle */ = {
+		DF39488F00E35C68E80756EB05E9F088 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4EC494B405E3C220EC90CCF86BBBA561 /* Pods-Appcircle.modulemap */,
-				9E37CEABE471B1C3821119628BFF1CBF /* Pods-Appcircle-acknowledgements.markdown */,
-				CEED7BA519989E4FE426C6CED5136097 /* Pods-Appcircle-acknowledgements.plist */,
-				4C230C893392EB879C9CFE24D5386E6F /* Pods-Appcircle-dummy.m */,
-				BC0143A2D4D8A0DCC703248D5BF430A5 /* Pods-Appcircle-Info.plist */,
-				F9C3A6C9263A6C7820F3057D89E5DA84 /* Pods-Appcircle-umbrella.h */,
-				A611B5317E7E8F51D30C26E9238EE0AC /* Pods-Appcircle.debug.xcconfig */,
-				B651192F61CFB8F6A9D1FDB3E95A0534 /* Pods-Appcircle.release.xcconfig */,
+				728F05C6B0D3E1665E0CD2499BCF6BC0 /* cs.lproj */,
+				EC3A76AC94275E9BE54FBB7225789CC7 /* de.lproj */,
+				2FA92ACE7DAA31848CED1D5142553E3E /* en.lproj */,
+				77EBCF1AF1B5268D32AACD7C8ECB5C0E /* es.lproj */,
+				742BC63DF85ADF29603D282A0443D38B /* fr.lproj */,
+				5C0DC0EB2E31AEB5F042AF49A1C93D37 /* it.lproj */,
+				3CFCCFB567ABC3D3E20FB06BC1042AAD /* ja.lproj */,
+				A9EFD9ECD8795B5B2C1A4E38373DDE0A /* ko.lproj */,
+				1D7BD48D92CACFB04F30D99F6BA92503 /* pl.lproj */,
+				B0BB4A4A63F25CB1D773B0246F45F8DF /* PrivacyInfo.xcprivacy */,
+				3C1D1BEF9C0E81BD198E5765083F4BC4 /* pt.lproj */,
+				1838361036518E9BCBC0E531AEAEE7B5 /* ru.lproj */,
+				5267F4AD5D559ABCB0A3155399F9D8F1 /* tr.lproj */,
+				92C8C18AFD003E5B50B7245304EACB4C /* zh-Hans.lproj */,
+				F302590CDE00D21A0D25ED6502CFF37D /* zh-Hant.lproj */,
 			);
-			name = "Pods-Appcircle";
-			path = "Target Support Files/Pods-Appcircle";
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EB731EBF277691FE441457F39B39B0E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0F85B6424D519A95E3D0D6437723F9AE /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FAA66A4E090FC071D4383377AF529EFE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BAB750319E83FD2D62CAA24AE538D236 /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FF01262B186A442912EFF564AF3A2475 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17F47B656B7E2C0D72EF18CB0B3DADD7 /* AppCenter.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,37 +509,72 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DCFE425CF68FDD661C9406B45D10908 /* Headers */ = {
+		7D61091CE9461D729239E1D3B6B662E2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8A71BC24F407C0A25340762196AC412 /* Pods-Appcircle-AppcircleUITests-umbrella.h in Headers */,
+				EF987A9C002C01FA4013D5CE65A9534F /* Pods-Appcircle-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F01022B27FD4BC29F4637EDD1CF0F97 /* Headers */ = {
+		BE28BE7A64615E99907D9C91135ADC8C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2CA2535D0D5D2FFD007E83F55D79EBE /* Pods-Appcircle-umbrella.h in Headers */,
+				C68CA52CB0664188120B887156C5C880 /* Pods-Appcircle-AppcircleUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		93B18823ACB1249CE4EBA2930CA0B280 /* Pods-Appcircle-AppcircleUITests */ = {
+		5105AC144254B8E58478B4411253287F /* AppCenter-AppCenterDistribute */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C80D426E2ED4E57275AC143177055D0 /* Build configuration list for PBXNativeTarget "Pods-Appcircle-AppcircleUITests" */;
+			buildConfigurationList = 6180DC88F68CB505508E8AB49AD1947C /* Build configuration list for PBXNativeTarget "AppCenter-AppCenterDistribute" */;
 			buildPhases = (
-				5DCFE425CF68FDD661C9406B45D10908 /* Headers */,
-				95E9DC8EFBCC77352D2F7103245C42EF /* Sources */,
-				13F14B37C7265A1CA30DBEE424972BEB /* Frameworks */,
-				533E6B1D69BE8ED0E32B515D17CCDA97 /* Resources */,
+				0B99DF23DE31AB498529F66C871435D4 /* Sources */,
+				A4299799AB71C8136F937BCCF4C793E9 /* Frameworks */,
+				60E0B5C0A8A0E63F55FAA9BE24C973AF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = "AppCenter-AppCenterDistribute";
+			productName = AppCenterDistribute;
+			productReference = 284195D36F01328E069A537CF033A0D5 /* AppCenter-AppCenterDistribute */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5AFB44FAD96A83677E9024EF6A10AE88 /* AppCenter-AppCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BC2BC40B74BA5F79BAF178D41C9DCF6 /* Build configuration list for PBXNativeTarget "AppCenter-AppCenter" */;
+			buildPhases = (
+				99B49EC909A7082003346EE469117246 /* Sources */,
+				C686BAF717ED50D8790F3858EF89617F /* Frameworks */,
+				342E044AF8C696C7FF625B89D9F0CAD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppCenter-AppCenter";
+			productName = AppCenter;
+			productReference = 59733A21051E78DCC3300A29260196FD /* AppCenter-AppCenter */;
+			productType = "com.apple.product-type.bundle";
+		};
+		93B18823ACB1249CE4EBA2930CA0B280 /* Pods-Appcircle-AppcircleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2EFA9620ED99E159565D4768C6773B7 /* Build configuration list for PBXNativeTarget "Pods-Appcircle-AppcircleUITests" */;
+			buildPhases = (
+				BE28BE7A64615E99907D9C91135ADC8C /* Headers */,
+				FAB1F18CD05DA2D63B2E6F4D9505D3FB /* Sources */,
+				48C764D45ABE14584D794786CB6F6E9B /* Frameworks */,
+				AD5ACC5E00687A0AF55761B8ED6F866E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D37E005BC3C48E0B1B295D6432A9F42A /* PBXTargetDependency */,
 			);
 			name = "Pods-Appcircle-AppcircleUITests";
 			productName = Pods_Appcircle_AppcircleUITests;
@@ -232,21 +583,56 @@
 		};
 		B0EE8208A0BBDB5C224008583B2270FD /* Pods-Appcircle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E04B223EF1B9325F56B32757FE8D2280 /* Build configuration list for PBXNativeTarget "Pods-Appcircle" */;
+			buildConfigurationList = DF85A71142C91A5EEBE1975E6BD4C09B /* Build configuration list for PBXNativeTarget "Pods-Appcircle" */;
 			buildPhases = (
-				6F01022B27FD4BC29F4637EDD1CF0F97 /* Headers */,
-				E261CD22C1177A13ADCC67394E33F1A1 /* Sources */,
-				424FCC6BFB81D8B34A0F771FB4D25505 /* Frameworks */,
-				86B9F0915E7C15AD54F3788E143548FD /* Resources */,
+				7D61091CE9461D729239E1D3B6B662E2 /* Headers */,
+				CD5643D2A7D075BDD7B6B2C41A90D75D /* Sources */,
+				3DC08DD80F9FB8383EE609161BA37E6C /* Frameworks */,
+				426C2CA157E581E4A1EC2C9BAF7B2096 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0D1444B6FC83BEB3ACF8A48EB062A1C2 /* PBXTargetDependency */,
 			);
 			name = "Pods-Appcircle";
 			productName = Pods_Appcircle;
 			productReference = FA59EBFC2AAD893246021F0F33BE8074 /* Pods-Appcircle */;
 			productType = "com.apple.product-type.framework";
+		};
+		C8C9547621507A981EA4ECF0E5C78672 /* AppCenter-AppCenterCrashes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC5DFD52BEFBAAEF2C43C0D90B521A2 /* Build configuration list for PBXNativeTarget "AppCenter-AppCenterCrashes" */;
+			buildPhases = (
+				B61126E945AC76DD60F44B91765021D9 /* Sources */,
+				AD57CC5AC6FAF06C0FAF19A86D2EED64 /* Frameworks */,
+				9E123FE52B22037CDF01A6EE322522E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppCenter-AppCenterCrashes";
+			productName = AppCenterCrashes;
+			productReference = C8DA55B2078EB45C624220566ED3E8EC /* AppCenter-AppCenterCrashes */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CD6DF1D2F337DD6141EB92CB83DABD83 /* AppCenter-AppCenterAnalytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1AE8612E5A280FA860DFEC148CD88D6 /* Build configuration list for PBXNativeTarget "AppCenter-AppCenterAnalytics" */;
+			buildPhases = (
+				10475E872E0B228E4FD68350833A2DBF /* Sources */,
+				B280A164EF21CEA119751397DDD63FBA /* Frameworks */,
+				DEF92483009225DCA5A6339CD05E1B85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppCenter-AppCenterAnalytics";
+			productName = AppCenterAnalytics;
+			productReference = 8766F6745EE57029FBDFE2757850B89F /* AppCenter-AppCenterAnalytics */;
+			productType = "com.apple.product-type.bundle";
 		};
 		CFF0661A25995A759C07E5842D138A1C /* Pods-AppcircleTests */ = {
 			isa = PBXNativeTarget;
@@ -260,12 +646,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				13BBE3C26A8CF08D282C289F833836DD /* PBXTargetDependency */,
+				410A3008A7D982E5AA9E22372E60F844 /* PBXTargetDependency */,
 			);
 			name = "Pods-AppcircleTests";
 			productName = Pods_AppcircleTests;
 			productReference = 46FB798B69C9DA465BA5C94EB4977A3B /* Pods-AppcircleTests */;
 			productType = "com.apple.product-type.framework";
+		};
+		FCD9915FE83842AE0201096155515772 /* AppCenter-AppCenterDistributeResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 455DC629F2D3BEB3A6B9C7075BF6EE4D /* Build configuration list for PBXNativeTarget "AppCenter-AppCenterDistributeResources" */;
+			buildPhases = (
+				2D34EF6A4CB2122DFDC2A7ABB1120808 /* Sources */,
+				00402B15CB2429A88B3F896699066A36 /* Frameworks */,
+				50C4AB54BF3EE0F3CFFB6BA6A79654DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppCenter-AppCenterDistributeResources";
+			productName = AppCenterDistributeResources;
+			productReference = 11AF731E4071DCD5E34B4CA294302B92 /* AppCenter-AppCenterDistributeResources */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -282,13 +685,32 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				Base,
+				cs,
+				de,
 				en,
+				es,
+				fr,
+				it,
+				ja,
+				ko,
+				pl,
+				pt,
+				ru,
+				tr,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 84D3227B7EA49FE3AB1558DC3DC0519D /* Products */;
+			productRefGroup = 93922BB533CEFB61223BE1CA86E94FEC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */,
+				5AFB44FAD96A83677E9024EF6A10AE88 /* AppCenter-AppCenter */,
+				CD6DF1D2F337DD6141EB92CB83DABD83 /* AppCenter-AppCenterAnalytics */,
+				C8C9547621507A981EA4ECF0E5C78672 /* AppCenter-AppCenterCrashes */,
+				5105AC144254B8E58478B4411253287F /* AppCenter-AppCenterDistribute */,
+				FCD9915FE83842AE0201096155515772 /* AppCenter-AppCenterDistributeResources */,
 				B0EE8208A0BBDB5C224008583B2270FD /* Pods-Appcircle */,
 				93B18823ACB1249CE4EBA2930CA0B280 /* Pods-Appcircle-AppcircleUITests */,
 				CFF0661A25995A759C07E5842D138A1C /* Pods-AppcircleTests */,
@@ -297,17 +719,47 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		533E6B1D69BE8ED0E32B515D17CCDA97 /* Resources */ = {
+		342E044AF8C696C7FF625B89D9F0CAD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A14E369ABFE83A21AA3D3A989EFF250 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426C2CA157E581E4A1EC2C9BAF7B2096 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86B9F0915E7C15AD54F3788E143548FD /* Resources */ = {
+		50C4AB54BF3EE0F3CFFB6BA6A79654DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AF4B94C733C28B8B6E1C570A9E8EF34 /* cs.lproj in Resources */,
+				34D452D124EA289051B4822262F3559D /* de.lproj in Resources */,
+				575FCA1EC7DC425D52F0DD86C283915B /* en.lproj in Resources */,
+				5384D72E32DD18225B874F46567268D8 /* es.lproj in Resources */,
+				BA8EA4415F7FB17D03CAE7FEF6216E79 /* fr.lproj in Resources */,
+				F96A6D561775DE91BDB50C67BB6B4CC7 /* it.lproj in Resources */,
+				97AB8DCE1D093B6F527C7EF586524C40 /* ja.lproj in Resources */,
+				F48EB8F3FD0C44B48D31396733902039 /* ko.lproj in Resources */,
+				BDA1F39092A41C7811338FCA1A814C06 /* pl.lproj in Resources */,
+				A775137951575DB94F4FAC2F0C17098E /* pt.lproj in Resources */,
+				C477F51836D4B7E660F24D52F131042F /* ru.lproj in Resources */,
+				3236CADB5E8EEF7E9358451E4DD955F8 /* tr.lproj in Resources */,
+				1B4AB9196FDDADF021ECDC74312B2286 /* zh-Hans.lproj in Resources */,
+				6D5A37F4414C9BDA0F3ED713DC2AFBD0 /* zh-Hant.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60E0B5C0A8A0E63F55FAA9BE24C973AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AEED0B6621443606185B67080B2E97B /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,9 +770,73 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9E123FE52B22037CDF01A6EE322522E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F477CF98DCFEA1514E8AA3EC99926C0E /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5ACC5E00687A0AF55761B8ED6F866E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF92483009225DCA5A6339CD05E1B85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F749BE2D405E2D8457F7DDD010CA82 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9D23B23285890316DEC66CFC4DA2C2A6 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AppCenter/AppCenter-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AppCenter/AppCenter-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/AppCenter/AppCenter-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		0B99DF23DE31AB498529F66C871435D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10475E872E0B228E4FD68350833A2DBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D34EF6A4CB2122DFDC2A7ABB1120808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52B62FCA3C1F9536355EB4AAA2448A4D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -329,37 +845,93 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95E9DC8EFBCC77352D2F7103245C42EF /* Sources */ = {
+		99B49EC909A7082003346EE469117246 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2260EB1CB83B51840EB1AE8478AF0E55 /* Pods-Appcircle-AppcircleUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E261CD22C1177A13ADCC67394E33F1A1 /* Sources */ = {
+		B61126E945AC76DD60F44B91765021D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1879B64ED43AC53C7AC1536A0ECCF510 /* Pods-Appcircle-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5643D2A7D075BDD7B6B2C41A90D75D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889CDE672391C0551D004BC38F9088BD /* Pods-Appcircle-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB1F18CD05DA2D63B2E6F4D9505D3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFAC6F9E16910F56B68E6E011C7967B4 /* Pods-Appcircle-AppcircleUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		13BBE3C26A8CF08D282C289F833836DD /* PBXTargetDependency */ = {
+		01CE8F5CECDA0460FEB6A39DF18AFBBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AppCenter-AppCenterDistributeResources";
+			target = FCD9915FE83842AE0201096155515772 /* AppCenter-AppCenterDistributeResources */;
+			targetProxy = 8265DAB0D25EB4B5AEE4C8B4905361F4 /* PBXContainerItemProxy */;
+		};
+		07EF9D9D6971BDC3A636638465D383C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AppCenter-AppCenterCrashes";
+			target = C8C9547621507A981EA4ECF0E5C78672 /* AppCenter-AppCenterCrashes */;
+			targetProxy = 7D2015A4F05164DCE042D69B50A79CBE /* PBXContainerItemProxy */;
+		};
+		0D1444B6FC83BEB3ACF8A48EB062A1C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenter;
+			target = A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */;
+			targetProxy = BB0A90EC67CC02E4EB71AA5C579BFE8F /* PBXContainerItemProxy */;
+		};
+		410A3008A7D982E5AA9E22372E60F844 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Appcircle";
 			target = B0EE8208A0BBDB5C224008583B2270FD /* Pods-Appcircle */;
-			targetProxy = 1B3E3B16A69E4D1CFFB696149DC2095F /* PBXContainerItemProxy */;
+			targetProxy = C3A0FEA67E47D58318CD63A8452F4A11 /* PBXContainerItemProxy */;
+		};
+		A46D6585BA875A6BD061B4E9EF1450D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AppCenter-AppCenterDistribute";
+			target = 5105AC144254B8E58478B4411253287F /* AppCenter-AppCenterDistribute */;
+			targetProxy = A41C0AE7B77B741F272354F5A456E438 /* PBXContainerItemProxy */;
+		};
+		B7823ABDB362D36F15ABF38E03DD498C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AppCenter-AppCenterAnalytics";
+			target = CD6DF1D2F337DD6141EB92CB83DABD83 /* AppCenter-AppCenterAnalytics */;
+			targetProxy = 220FE301A6D54A7AC19FEB7DF24656C5 /* PBXContainerItemProxy */;
+		};
+		CC00D3BA11C4829594D151512DFB80FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AppCenter-AppCenter";
+			target = 5AFB44FAD96A83677E9024EF6A10AE88 /* AppCenter-AppCenter */;
+			targetProxy = B7F3254B1BD2B0FD6AB36DA42CAA6CE0 /* PBXContainerItemProxy */;
+		};
+		D37E005BC3C48E0B1B295D6432A9F42A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenter;
+			target = A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */;
+			targetProxy = 716D7CE5021F39AE079096266F079623 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		25AD32F0C8E58CAFAEF4F877BCBD201B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE7E49D7330123EF9A1EE6316FD54A9B /* Pods-AppcircleTests.debug.xcconfig */;
+			baseConfigurationReference = 1774517C2A85332EC4FD38BFFE5CDA4C /* Pods-AppcircleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -396,7 +968,7 @@
 		};
 		27EEF39A26EDF0C0C0934C4128B796FD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59F6042EFABA2B389AC3057A0EB33F6B /* Pods-AppcircleTests.release.xcconfig */;
+			baseConfigurationReference = 4086E81C53D48DABA56868927CBB8712 /* Pods-AppcircleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -429,6 +1001,238 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		294C697A5231321A52E01E292BF61F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C6441B672F3C9D258895DA9490017E /* Pods-Appcircle-AppcircleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		429BAFCA29960295BA7B3C014FDE5226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03D073CABC880FE9E2D5E844A1A3C576 /* AppCenter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42B166CE2E71CB11E5526D11068A7896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C79FC8C1B178E3618494295CDC46EA /* Pods-Appcircle.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Appcircle/Pods-Appcircle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Appcircle/Pods-Appcircle.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E5FD77ADF85A7D6978FF1345DB2DE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF01D287EF111EB07FBD97633812F29 /* Pods-Appcircle-AppcircleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5606A3085D922150D44A8073DEC2635F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B3267D7DE5C12E8CB03E3E5CA8E8F5B /* AppCenter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AppCenter";
+				IBSC_MODULE = AppCenter;
+				INFOPLIST_FILE = "Target Support Files/AppCenter/ResourceBundle-AppCenterDistributeResources-AppCenter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = AppCenterDistributeResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		63FD2ACA068863E42A4FB4261E1A6592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B3267D7DE5C12E8CB03E3E5CA8E8F5B /* AppCenter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73936550FF210BD9B98344900D50015C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B3267D7DE5C12E8CB03E3E5CA8E8F5B /* AppCenter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AppCenter";
+				IBSC_MODULE = AppCenter;
+				INFOPLIST_FILE = "Target Support Files/AppCenter/ResourceBundle-AppCenterAnalytics-AppCenter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = AppCenterAnalytics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		77E399CCF1EBCD0ADE7B3530BEB1A042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B3267D7DE5C12E8CB03E3E5CA8E8F5B /* AppCenter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AppCenter";
+				IBSC_MODULE = AppCenter;
+				INFOPLIST_FILE = "Target Support Files/AppCenter/ResourceBundle-AppCenterDistribute-AppCenter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = AppCenterDistribute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		85F6AA69CF2E0E3D0F22564BB60E992B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03D073CABC880FE9E2D5E844A1A3C576 /* AppCenter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AppCenter";
+				IBSC_MODULE = AppCenter;
+				INFOPLIST_FILE = "Target Support Files/AppCenter/ResourceBundle-AppCenterDistribute-AppCenter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = AppCenterDistribute;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8A62D00161BFEBE35440C47D6253FC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03D073CABC880FE9E2D5E844A1A3C576 /* AppCenter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AppCenter";
+				IBSC_MODULE = AppCenter;
+				INFOPLIST_FILE = "Target Support Files/AppCenter/ResourceBundle-AppCenter-AppCenter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = AppCenter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -560,46 +1364,77 @@
 			};
 			name = Release;
 		};
-		A22EAA016190C56B7C7CB7022DDB575D /* Debug */ = {
+		A27F2D9FD4BF211B5A02E5E89CBA369D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A611B5317E7E8F51D30C26E9238EE0AC /* Pods-Appcircle.debug.xcconfig */;
+			baseConfigurationReference = 03D073CABC880FE9E2D5E844A1A3C576 /* AppCenter.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Appcircle/Pods-Appcircle-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Appcircle/Pods-Appcircle.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AppCenter";
+				IBSC_MODULE = AppCenter;
+				INFOPLIST_FILE = "Target Support Files/AppCenter/ResourceBundle-AppCenterCrashes-AppCenter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = AppCenterCrashes;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B6F04854E16CBB9816CC661634A92CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03D073CABC880FE9E2D5E844A1A3C576 /* AppCenter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AppCenter";
+				IBSC_MODULE = AppCenter;
+				INFOPLIST_FILE = "Target Support Files/AppCenter/ResourceBundle-AppCenterAnalytics-AppCenter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = AppCenterAnalytics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B8EF3809FD11E555CF70A4DD71D31DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B3267D7DE5C12E8CB03E3E5CA8E8F5B /* AppCenter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AppCenter";
+				IBSC_MODULE = AppCenter;
+				INFOPLIST_FILE = "Target Support Files/AppCenter/ResourceBundle-AppCenter-AppCenter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = AppCenter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		AC18376A14A5762C95A0B9402800D730 /* Release */ = {
+		C8302726B7CB1F4CD27A9EFD82ECB266 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B651192F61CFB8F6A9D1FDB3E95A0534 /* Pods-Appcircle.release.xcconfig */;
+			baseConfigurationReference = 03D073CABC880FE9E2D5E844A1A3C576 /* AppCenter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AppCenter";
+				IBSC_MODULE = AppCenter;
+				INFOPLIST_FILE = "Target Support Files/AppCenter/ResourceBundle-AppCenterDistributeResources-AppCenter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = AppCenterDistributeResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CDD14E92BB4EFE8B892CB11F8623097A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72F0C8180F308576C40F3BD3BA0B3326 /* Pods-Appcircle.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -635,89 +1470,31 @@
 			};
 			name = Release;
 		};
-		CC89B7CD356B78C0E4096419CF274595 /* Release */ = {
+		F16E48540383F7DD8AE5C368A3B24B61 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFBC06BDC277A4C59AD8C844E7FFFC19 /* Pods-Appcircle-AppcircleUITests.release.xcconfig */;
+			baseConfigurationReference = 0B3267D7DE5C12E8CB03E3E5CA8E8F5B /* AppCenter.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AppCenter";
+				IBSC_MODULE = AppCenter;
+				INFOPLIST_FILE = "Target Support Files/AppCenter/ResourceBundle-AppCenterCrashes-AppCenter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = AppCenterCrashes;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E8E66331C6C6A6B162BCDA0A59A7FAAC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B01B667E155C37F9F2FCDAD6489498E /* Pods-Appcircle-AppcircleUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C80D426E2ED4E57275AC143177055D0 /* Build configuration list for PBXNativeTarget "Pods-Appcircle-AppcircleUITests" */ = {
+		455DC629F2D3BEB3A6B9C7075BF6EE4D /* Build configuration list for PBXNativeTarget "AppCenter-AppCenterDistributeResources" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8E66331C6C6A6B162BCDA0A59A7FAAC /* Debug */,
-				CC89B7CD356B78C0E4096419CF274595 /* Release */,
+				5606A3085D922150D44A8073DEC2635F /* Debug */,
+				C8302726B7CB1F4CD27A9EFD82ECB266 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -731,6 +1508,24 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		6180DC88F68CB505508E8AB49AD1947C /* Build configuration list for PBXNativeTarget "AppCenter-AppCenterDistribute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E399CCF1EBCD0ADE7B3530BEB1A042 /* Debug */,
+				85F6AA69CF2E0E3D0F22564BB60E992B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BC2BC40B74BA5F79BAF178D41C9DCF6 /* Build configuration list for PBXNativeTarget "AppCenter-AppCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8EF3809FD11E555CF70A4DD71D31DF9 /* Debug */,
+				8A62D00161BFEBE35440C47D6253FC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CDD177BB26CAE29351FA3F09B0C1102E /* Build configuration list for PBXNativeTarget "Pods-AppcircleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -740,11 +1535,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E04B223EF1B9325F56B32757FE8D2280 /* Build configuration list for PBXNativeTarget "Pods-Appcircle" */ = {
+		D1AE8612E5A280FA860DFEC148CD88D6 /* Build configuration list for PBXNativeTarget "AppCenter-AppCenterAnalytics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A22EAA016190C56B7C7CB7022DDB575D /* Debug */,
-				AC18376A14A5762C95A0B9402800D730 /* Release */,
+				73936550FF210BD9B98344900D50015C /* Debug */,
+				B6F04854E16CBB9816CC661634A92CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF85A71142C91A5EEBE1975E6BD4C09B /* Build configuration list for PBXNativeTarget "Pods-Appcircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B166CE2E71CB11E5526D11068A7896 /* Debug */,
+				CDD14E92BB4EFE8B892CB11F8623097A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2EFA9620ED99E159565D4768C6773B7 /* Build configuration list for PBXNativeTarget "Pods-Appcircle-AppcircleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294C697A5231321A52E01E292BF61F15 /* Debug */,
+				4E5FD77ADF85A7D6978FF1345DB2DE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC5DFD52BEFBAAEF2C43C0D90B521A2 /* Build configuration list for PBXNativeTarget "AppCenter-AppCenterCrashes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16E48540383F7DD8AE5C368A3B24B61 /* Debug */,
+				A27F2D9FD4BF211B5A02E5E89CBA369D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3C9EB643BE2F505CADF809D4AFFE8FC /* Build configuration list for PBXAggregateTarget "AppCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63FD2ACA068863E42A4FB4261E1A6592 /* Debug */,
+				429BAFCA29960295BA7B3C014FDE5226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

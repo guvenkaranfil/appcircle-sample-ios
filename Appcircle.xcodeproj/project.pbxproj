@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05060441D529C1E30D8C4B09 /* Pods_Appcircle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFEB78EDB1F77EF190FD514 /* Pods_Appcircle.framework */; };
 		450FAD66277C4BBC00C3060D /* AppcircleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FAD65277C4BBC00C3060D /* AppcircleApp.swift */; };
 		450FAD68277C4BBC00C3060D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FAD67277C4BBC00C3060D /* ContentView.swift */; };
 		450FAD6A277C4BBF00C3060D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 450FAD69277C4BBF00C3060D /* Assets.xcassets */; };
@@ -15,6 +16,8 @@
 		450FAD81277C4BBF00C3060D /* AppcircleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FAD80277C4BBF00C3060D /* AppcircleUITests.swift */; };
 		450FAD83277C4BBF00C3060D /* AppcircleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FAD82277C4BBF00C3060D /* AppcircleUITestsLaunchTests.swift */; };
 		450FAD92277C4D4D00C3060D /* FizzBuzzKit in Frameworks */ = {isa = PBXBuildFile; productRef = 450FAD91277C4D4D00C3060D /* FizzBuzzKit */; };
+		972C4E14380768E96EBB32F8 /* Pods_AppcircleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA672B203BF1AB373CC906E /* Pods_AppcircleTests.framework */; };
+		A97F356FBCDBAC50E3C36E55 /* Pods_Appcircle_AppcircleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1347EF61C755B4D254896A48 /* Pods_Appcircle_AppcircleUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,7 @@
 		518CE9777E6CE0571A6DC6D9 /* Pods-Appcircle-AppcircleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcircle-AppcircleUITests.release.xcconfig"; path = "Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8822187C3BBED735C1EBDCFE /* Pods-Appcircle-AppcircleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcircle-AppcircleUITests.debug.xcconfig"; path = "Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9CA672B203BF1AB373CC906E /* Pods_AppcircleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppcircleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1B24C52C58DE32007DE783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C41578F903125A0CD7D4C6D1 /* Pods-Appcircle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcircle.release.xcconfig"; path = "Target Support Files/Pods-Appcircle/Pods-Appcircle.release.xcconfig"; sourceTree = "<group>"; };
 		E575E4F72A6E7F435A20C2F5 /* Pods-Appcircle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appcircle.debug.xcconfig"; path = "Target Support Files/Pods-Appcircle/Pods-Appcircle.debug.xcconfig"; sourceTree = "<group>"; };
 		FCFEB78EDB1F77EF190FD514 /* Pods_Appcircle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appcircle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				450FAD92277C4D4D00C3060D /* FizzBuzzKit in Frameworks */,
+				05060441D529C1E30D8C4B09 /* Pods_Appcircle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				972C4E14380768E96EBB32F8 /* Pods_AppcircleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A97F356FBCDBAC50E3C36E55 /* Pods_Appcircle_AppcircleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +116,7 @@
 		450FAD64277C4BBC00C3060D /* Appcircle */ = {
 			isa = PBXGroup;
 			children = (
+				9F1B24C52C58DE32007DE783 /* Info.plist */,
 				450FAD65277C4BBC00C3060D /* AppcircleApp.swift */,
 				450FAD67277C4BBC00C3060D /* ContentView.swift */,
 				450FAD69277C4BBF00C3060D /* Assets.xcassets */,
@@ -176,6 +184,7 @@
 				450FAD5E277C4BBC00C3060D /* Sources */,
 				450FAD5F277C4BBC00C3060D /* Frameworks */,
 				450FAD60277C4BBC00C3060D /* Resources */,
+				1B2F085D8E8E900684461C4C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -216,6 +225,7 @@
 				450FAD78277C4BBF00C3060D /* Sources */,
 				450FAD79277C4BBF00C3060D /* Frameworks */,
 				450FAD7A277C4BBF00C3060D /* Resources */,
+				2CF55319AEA4179B375F4E44 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,6 +307,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1B2F085D8E8E900684461C4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Appcircle/Pods-Appcircle-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Appcircle/Pods-Appcircle-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Appcircle/Pods-Appcircle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		1B4205A59C61E03FB5145E0A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,6 +366,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CF55319AEA4179B375F4E44 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Appcircle-AppcircleUITests/Pods-Appcircle-AppcircleUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3C9C75B2B7A883E31F7EA73E /* [CP] Check Pods Manifest.lock */ = {
@@ -533,11 +577,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Appcircle/Preview Content\"";
 				DEVELOPMENT_TEAM = 8U2Z24R99J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Appcircle/Info.plist;
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Health Permission";
 				INFOPLIST_KEY_NSNetworkVolumesUsageDescription = "Network Permission";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -568,11 +613,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Appcircle/Preview Content\"";
 				DEVELOPMENT_TEAM = 8U2Z24R99J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Appcircle/Info.plist;
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Health Permission";
 				INFOPLIST_KEY_NSNetworkVolumesUsageDescription = "Network Permission";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
