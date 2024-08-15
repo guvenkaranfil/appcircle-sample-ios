@@ -27,3 +27,6 @@ DerivedData/
 /*.gcno
 
 # Cocoapods
+
+# Constants
+Environments.swift

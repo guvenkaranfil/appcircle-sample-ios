@@ -7,8 +7,6 @@ target 'Appcircle' do
 
   # Pods for Appcircle
 
-  pod 'AppCenter'
-  pod 'AppCenter/Distribute'
 
   target 'AppcircleTests' do
     inherit! :search_paths

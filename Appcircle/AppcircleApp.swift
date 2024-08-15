@@ -6,30 +6,40 @@
 //
 
 import SwiftUI
-import AppCenter
-import AppCenterDistribute
-
-
 
 @main
 struct AppcircleApp: App {
+    @State private var updateURL: URL?
+    @State private var showAlert: Bool = false
     
-    init() {
-        AppCenter.start(withAppSecret: "d24149e2-e73d-4353-9a79-fb0740fd3bdd", services: [
-            Distribute.self
-        ])
-        
-        Distribute.checkForUpdate()
-        Distribute.notify(.update)
-        
-        if (Distribute.enabled) {
-            print("App Center Distribute Enabled")
-        }
-    }
-    
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear {
+                    let updateChecker = UpdateChecker()
+                    Task {
+                        if let updateURL = try await updateChecker.checkForUpdate(pat: Environments.pat, profileId: Environments.profileId, storePrefix: Environments.storeId, userEmail: "USER_EMAIL") {
+                            self.updateURL = updateURL
+                            self.showAlert.toggle()
+                        }
+                    }
+                }
+                .alert(isPresented: $showAlert) {
+                    Alert(
+                        title: Text("Update Available"),
+                        message: Text("A new version is available Would you like to update?"),
+                        primaryButton: .default(Text("Update"), action: {
+                            UIApplication.shared.open(self.updateURL!) { isOpened in
+                                print("Application Opened")
+                            }
+                        }),
+                        secondaryButton: .cancel(Text("Cancel"), action: {
+                            // Handle the cancel action
+                            print("User canceled the update")
+                        })
+                    )
+                }
         }
     }
 }

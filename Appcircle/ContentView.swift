@@ -22,20 +22,24 @@ struct FizzBuzzView: View {
 
 struct ContentView: View {
     @State var numberString: String = ""
+    private var version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String
+    
     var body: some View {
 
-        Text("Appcircle")
-        Image("Logo")
-            .resizable()
-            .frame(width: 64, height: 64)
-
-        Form {
-            TextField(text: $numberString, prompt: Text("Enter a number")) {
-                Text("Number")
-            }
-            FizzBuzzView(number: Int(numberString) ?? 0)
+        VStack {
+            Text("Appcircle")
+            Image("Logo")
+                .resizable()
+                .frame(width: 64, height: 64)
         }
-
+        .padding(.top, 32)
+        
+        Spacer()
+        
+        Text("Version: \(self.version ?? "")")
+            .font(.headline)
+            .padding(.top, 10)
+            .padding(.bottom, 80)
     }
 }
 
